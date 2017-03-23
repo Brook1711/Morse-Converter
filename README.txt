@@ -1,8 +1,4 @@
-
-
-Topic: Convert Morse Code to Text
-Author: Ashley Smith
-Date: 5/10/2016
+This project was created as a final project for my ES-2 class in May 2016, where I chose the project topic and wrote all of the files myself using what I had learned throughout the semester in the course, and some new numerical methods, which I researched on my own.
 
 
 OVERVIEW
@@ -26,17 +22,17 @@ OUTPUT FILES
 
 The program outputs a file called morseresults.txt. This file contains the original morse code represented in dots and dashes followed by the translation to English text.
 
-The program can also display the graphs if the user enters ‘y’ when prompted. This, however, does not save the graphs as files to your computer.
+The program can also display the graphs if the user enters √îy√ï when prompted. This, however, does not save the graphs as files to your computer.
 
 
 RUN SCRIPTS
 
-1) runAllMorseToText.m – script that converts Morse audio to a text file with dots and dashes and English text, by filtering the graph and calling all of the other functions
+1) runAllMorseToText.m √ê script that converts Morse audio to a text file with dots and dashes and English text, by filtering the graph and calling all of the other functions
 
 
 CALCULATION FUNCTIONS
 
-1) findThresh.m – calculates the optimal thresholds to be used for identifying dots, dashes, and spaces from the logical vector of Morse code
-2) convertToDotsAndDashes.m – converts the logical vector of Morse code from runAllMorseToText.m into a string of dots and dashes, using findThresh to calculate the threshold
-3) convertToWords.m – uses a parallel array and cell array to translate the dot-dash string into a string of English text
+1) findThresh.m √ê calculates the optimal thresholds to be used for identifying dots, dashes, and spaces from the logical vector of Morse code
+2) convertToDotsAndDashes.m √ê converts the logical vector of Morse code from runAllMorseToText.m into a string of dots and dashes, using findThresh to calculate the threshold
+3) convertToWords.m √ê uses a parallel array and cell array to translate the dot-dash string into a string of English text
 
