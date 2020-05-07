@@ -3,7 +3,7 @@
 % Purpose: to convert a morse audio file to text
 
 %read in audio file
-file = audioread('morseaudio.mp3');
+file = audioread('jan6.mp3');
 % length of entire clip was found by looking at audiofile
 time = 404; %in seconds
 smplrate = length(file)/time;
